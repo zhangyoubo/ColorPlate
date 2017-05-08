@@ -7,7 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Palette.h"
+#import "ColorDisplayView.h"
+#import "SevenColorView.h"
+#import "RGBView.h"
 
-@interface ViewController : UIViewController
+
+@interface ViewController : UIViewController{
+
+    Palette *palette;
+    ColorDisplayView *colorDisplayView;
+    SevenColorView *sevenColorView;
+    RGBView *rgbView;
+}
 
 @end

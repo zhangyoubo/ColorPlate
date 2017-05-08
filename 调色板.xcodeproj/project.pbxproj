@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18CFE0BD1BA114C0004476DD /* pickerColorWheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CFE0BC1BA114C0004476DD /* pickerColorWheel.png */; };
+		CC58A0901D45A5CA00AF541B /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC58A08F1D45A5CA00AF541B /* AdSupport.framework */; };
 		FD85BD7E17703101000F4790 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD85BD7D17703101000F4790 /* UIKit.framework */; };
 		FD85BD8017703101000F4790 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD85BD7F17703101000F4790 /* Foundation.framework */; };
 		FD85BD8217703101000F4790 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD85BD8117703101000F4790 /* CoreGraphics.framework */; };
@@ -18,9 +20,17 @@
 		FD85BD9417703101000F4790 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD85BD9317703101000F4790 /* Default-568h@2x.png */; };
 		FD85BD9717703101000F4790 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD85BD9517703101000F4790 /* MainStoryboard.storyboard */; };
 		FD85BD9A17703101000F4790 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD85BD9917703101000F4790 /* ViewController.m */; };
+		FD85BDA21770317B000F4790 /* Palette.m in Sources */ = {isa = PBXBuildFile; fileRef = FD85BDA11770317B000F4790 /* Palette.m */; };
+		FD85BDA517703202000F4790 /* 全色.png in Resources */ = {isa = PBXBuildFile; fileRef = FD85BDA317703202000F4790 /* 全色.png */; };
+		FD85BDA617703202000F4790 /* 全色@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD85BDA417703202000F4790 /* 全色@2x.png */; };
+		FD85BDA9177037AF000F4790 /* ColorDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD85BDA8177037AF000F4790 /* ColorDisplayView.m */; };
+		FD85BDAC17703ED2000F4790 /* SevenColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD85BDAB17703ED2000F4790 /* SevenColorView.m */; };
+		FD85BDAF1770545D000F4790 /* RGBView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD85BDAE1770545D000F4790 /* RGBView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18CFE0BC1BA114C0004476DD /* pickerColorWheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pickerColorWheel.png; sourceTree = "<group>"; };
+		CC58A08F1D45A5CA00AF541B /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		FD85BD7A17703101000F4790 /* 调色板.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "调色板.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD85BD7D17703101000F4790 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FD85BD7F17703101000F4790 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +47,16 @@
 		FD85BD9617703101000F4790 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		FD85BD9817703101000F4790 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FD85BD9917703101000F4790 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD85BDA01770317B000F4790 /* Palette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Palette.h; sourceTree = "<group>"; };
+		FD85BDA11770317B000F4790 /* Palette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Palette.m; sourceTree = "<group>"; };
+		FD85BDA317703202000F4790 /* 全色.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "全色.png"; sourceTree = "<group>"; };
+		FD85BDA417703202000F4790 /* 全色@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "全色@2x.png"; sourceTree = "<group>"; };
+		FD85BDA7177037AF000F4790 /* ColorDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorDisplayView.h; sourceTree = "<group>"; };
+		FD85BDA8177037AF000F4790 /* ColorDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorDisplayView.m; sourceTree = "<group>"; };
+		FD85BDAA17703ED2000F4790 /* SevenColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SevenColorView.h; sourceTree = "<group>"; };
+		FD85BDAB17703ED2000F4790 /* SevenColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SevenColorView.m; sourceTree = "<group>"; };
+		FD85BDAD1770545D000F4790 /* RGBView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RGBView.h; path = ../RGBView.h; sourceTree = "<group>"; };
+		FD85BDAE1770545D000F4790 /* RGBView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RGBView.m; path = ../RGBView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC58A0901D45A5CA00AF541B /* AdSupport.framework in Frameworks */,
 				FD85BD7E17703101000F4790 /* UIKit.framework in Frameworks */,
 				FD85BD8017703101000F4790 /* Foundation.framework in Frameworks */,
 				FD85BD8217703101000F4790 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +94,7 @@
 		FD85BD7C17703101000F4790 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CC58A08F1D45A5CA00AF541B /* AdSupport.framework */,
 				FD85BD7D17703101000F4790 /* UIKit.framework */,
 				FD85BD7F17703101000F4790 /* Foundation.framework */,
 				FD85BD8117703101000F4790 /* CoreGraphics.framework */,
@@ -83,12 +105,23 @@
 		FD85BD8317703101000F4790 /* 调色板 */ = {
 			isa = PBXGroup;
 			children = (
+				FD85BDA317703202000F4790 /* 全色.png */,
+				FD85BDA417703202000F4790 /* 全色@2x.png */,
+				18CFE0BC1BA114C0004476DD /* pickerColorWheel.png */,
 				FD85BD8C17703101000F4790 /* AppDelegate.h */,
 				FD85BD8D17703101000F4790 /* AppDelegate.m */,
 				FD85BD9517703101000F4790 /* MainStoryboard.storyboard */,
 				FD85BD9817703101000F4790 /* ViewController.h */,
 				FD85BD9917703101000F4790 /* ViewController.m */,
 				FD85BD8417703101000F4790 /* Supporting Files */,
+				FD85BDA01770317B000F4790 /* Palette.h */,
+				FD85BDA11770317B000F4790 /* Palette.m */,
+				FD85BDA7177037AF000F4790 /* ColorDisplayView.h */,
+				FD85BDA8177037AF000F4790 /* ColorDisplayView.m */,
+				FD85BDAA17703ED2000F4790 /* SevenColorView.h */,
+				FD85BDAB17703ED2000F4790 /* SevenColorView.m */,
+				FD85BDAD1770545D000F4790 /* RGBView.h */,
+				FD85BDAE1770545D000F4790 /* RGBView.m */,
 			);
 			path = "调色板";
 			sourceTree = "<group>";
@@ -159,10 +192,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD85BD8817703101000F4790 /* InfoPlist.strings in Resources */,
+				18CFE0BD1BA114C0004476DD /* pickerColorWheel.png in Resources */,
 				FD85BD9017703101000F4790 /* Default.png in Resources */,
 				FD85BD9217703101000F4790 /* Default@2x.png in Resources */,
 				FD85BD9417703101000F4790 /* Default-568h@2x.png in Resources */,
 				FD85BD9717703101000F4790 /* MainStoryboard.storyboard in Resources */,
+				FD85BDA517703202000F4790 /* 全色.png in Resources */,
+				FD85BDA617703202000F4790 /* 全色@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +212,10 @@
 				FD85BD8A17703101000F4790 /* main.m in Sources */,
 				FD85BD8E17703101000F4790 /* AppDelegate.m in Sources */,
 				FD85BD9A17703101000F4790 /* ViewController.m in Sources */,
+				FD85BDA21770317B000F4790 /* Palette.m in Sources */,
+				FD85BDA9177037AF000F4790 /* ColorDisplayView.m in Sources */,
+				FD85BDAC17703ED2000F4790 /* SevenColorView.m in Sources */,
+				FD85BDAF1770545D000F4790 /* RGBView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +338,7 @@
 				FD85BD9F17703101000F4790 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
